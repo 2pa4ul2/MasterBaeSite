@@ -25,13 +25,36 @@ aside h3{
     font-weight: 400;
 }
 
-
+input{
+    line-height: 57px;
+    border-radius: 15px;
+    border-color: #0080FF;
+    font-size: 16px;
+    color: #a7aeb4;
+}
+input:after{
+    border-color: #67a59d;
+}
 
 .gradient{
-    height: 100vh;
+    height: 95vh;
     width: 50vw;
     background-color: black;
-    margin: 2em;
+    margin: 1em;
     border-radius: 25px;
     background-image: linear-gradient( 45deg, #C6F1C6, #0080FF);
+}
+
+#login-button{
+    width: 492px;
+    height: 60px;
+    background-color: #80CEC3;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 15px;
+    margin-top: 63px;
+}
+#login-button:hover{
+    background-color: #67a59d;
 }
