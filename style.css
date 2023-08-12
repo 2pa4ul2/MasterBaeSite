@@ -112,6 +112,7 @@ input:after{
     display: flex;
     justify-content: end;
     align-items: center;
+    color: #616161;
     gap: 5px;
     
 }
