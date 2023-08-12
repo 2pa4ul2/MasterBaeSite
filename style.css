@@ -19,19 +19,27 @@ aside{
 aside h1{
     font-weight: 700;
     font-size: 40px;
+    margin: 0;
 }
 
 aside h3{
     font-weight: 400;
 }
+form{
+    width: 550px;
+}
 
 input{
+    margin-top: 50px;
     line-height: 57px;
     border-radius: 15px;
     border-color: #0080FF;
     font-size: 16px;
-    color: #a7aeb4;
+    color: #3b3b3b; 
+    text-indent: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
+
 input:after{
     border-color: #67a59d;
 }
@@ -45,16 +53,70 @@ input:after{
     background-image: linear-gradient( 45deg, #C6F1C6, #0080FF);
 }
 
+.forgot{
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    color: #0080FF;
+}
+
+.divider{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: 50%;
+}
+
+.divider div{
+    background-color: #9b9b9b;
+    height: 2px;
+    width: 200px;
+    margin-top: 10px;
+}
+
 #login-button{
-    width: 492px;
+    width: 560px;
     height: 60px;
     background-color: #80CEC3;
     font-size: 20px;
     color: #FFFFFF;
     border: none;
     border-radius: 15px;
-    margin-top: 63px;
+    margin-top: 23px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 #login-button:hover{
     background-color: #67a59d;
+}
+
+.google{
+    width: 560px;
+    height: 60px;
+    font-size: 20px;    
+    background-color: #FFFFFF;
+    color: #616161;
+    border-color:#0080FF;
+    border-radius: 50px;
+    margin-top: 23px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.google:hover{
+    background-color:#ffffff;
+    border-color: #80CEC3;
+}
+
+.noaccount{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+.noaccount a{
+    text-decoration: none;
+    color: #0080FF;
 }

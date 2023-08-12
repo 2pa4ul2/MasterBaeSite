@@ -12,14 +12,25 @@
 <body>
     <aside>
         <div class = "fillupcontainer">
-            <h1>WELCOME!</h1>
+            <h1>Welcome!</h1>
             <form action="">
-                <h3>Username</h3>
-                <input type="text" size="65" height = "57" name="Username" height="20">
-                <h3>Password</h3>
-                <input type="Password" size="65" name="Password" height="20">
+                <input type="email"  placeholder="Enter your email" size="60" height = "57" name="Username" height="20">
+                <input type="Password"  placeholder="Password" size="60" name="Password" height="20">
+                <a class = "forgot" href="#">
+                    <h4>Forgot password?</h4>
+                </a>
+                <button id = "login-button">Log in</button>
+                <div class = "divider">
+                    <div></div>
+                    <h4>or</h4>
+                    <div></div>
+                </div>
+                <button class="google">Sign in with Google</button>
+                <div class="noaccount">
+                    <h4>Don't have an account?</h4>
+                    <a href=""><h4>Sign in</h4></a>
+                </div>
             </form>
-            <button id = "login-button">Log in</button>
         </div>
     </aside>
     <main>
